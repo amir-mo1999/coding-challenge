@@ -2,7 +2,7 @@
 
 ## Docker Setup
 
-Make sure your Docker engine is running. Then run the following commands to build the image and start up the container:
+Make sure your Docker engine is running. Then run the following commands:
 
 1. Create a .env file with the following field:
 
@@ -21,7 +21,7 @@ docker run -d -p 4000:4000 coding_challenge
 
 ## Local Setup
 
-Make sure you have Python installed on your system. Then run the following.
+Make sure you have Python installed on your system. Then run the following commands:
 
 1. Create the virtual environment:
 
