@@ -1,3 +1,5 @@
+"""Defines FastAPI app object."""
+
 from .routes import router
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
