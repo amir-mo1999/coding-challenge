@@ -51,6 +51,10 @@ python wsgi.py
 
 I structured the project by keeping config files such as Docker or .gitignore files in the root folder, while the actual application lives in its own folder. Within the root folder I created a single entry point to the backend server "wsgi.py". Generally I tried to structure my project into files and modules, so that each one would have a clear purpose. This would keep the code base clean and not too convoluted.
 
+## API Documentation
+
+FastAPI works hand in hand with the pydantic library to create automated API documentation. Thus I used the pydantic library to define input and response models for the API route. These models are all neatly visible in the Swagger documentation and provide a easy way to build decent API docs.
+
 ## Backend Framework
 
 I chose FastAPI as my backend framework for the following reasons:
